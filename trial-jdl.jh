@@ -1,0 +1,20 @@
+enum Designation {
+	DEV,
+	TL,
+	PM
+}
+
+entity Employee {
+	empName String,
+	designation Designation
+}
+
+entity Department {
+	deptName String
+}
+
+relationship ManyToOne {
+  
+  Employee{department(deptName)} to Department
+  
+}
