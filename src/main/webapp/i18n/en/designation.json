@@ -1,0 +1,10 @@
+{
+  "trialApp": {
+    "Designation": {
+      "null": "",
+      "DEV": "DEV",
+      "TL": "TL",
+      "PM": "PM"
+    }
+  }
+}

@@ -5,7 +5,8 @@ enum Designation {
 }
 
 entity Employee {
-	empName String,
+	empName String required,
+	countryCode Integer,
 	designation Designation
 }
 
@@ -13,6 +14,11 @@ entity Department {
 	deptName String
 }
 
+relationship OneToOne {
+  
+  Employee{user(login)} to User
+  
+}
 relationship ManyToOne {
   
   Employee{department(deptName)} to Department

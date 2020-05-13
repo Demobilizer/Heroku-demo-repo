@@ -38,6 +38,8 @@
     "enableTranslation": true,
     "nativeLanguage": "en",
     "languages": ["en"],
-    "blueprints": []
+    "blueprints": [],
+    "herokuAppName": "still-hollows-71809",
+    "herokuDeployType": "jar"
   }
 }
